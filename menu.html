@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu | 각성연구소</title>
+  <meta name="description" content="각성연구소의 시그니처 메뉴. 에스프레소, 브루잉, 시즌 한정 음료를 만나보세요.">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav" id="nav">
+    <div class="container nav-container">
+      <a href="index.html" class="nav-logo">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M9 3h6M10 3v6.5L5 21h14l-5-11.5V3"/>
+          <path d="M7 17h10"/>
+        </svg>
+        <div>
+          <span class="nav-logo-text">각성연구소</span>
+          <span class="nav-logo-sub">Awakening Lab</span>
+        </div>
+      </a>
+
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="index.html" class="nav-link">Home</a></li>
+        <li><a href="menu.html" class="nav-link active">Menu</a></li>
+        <li><a href="laboratory.html" class="nav-link">Laboratory</a></li>
+        <li><a href="location.html" class="nav-link">Location</a></li>
+      </ul>
+
+      <button class="nav-toggle" id="navToggle" aria-label="메뉴 열기">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+  <header class="page-header">
+    <div class="container">
+      <p class="text-accent page-header-label">Our Menu</p>
+      <h1 class="page-header-title">메뉴</h1>
+      <p class="page-header-desc">
+        연구 끝에 완성된 각성연구소만의 시그니처 음료와 원두 컬렉션
+      </p>
+    </div>
+  </header>
+
+  <!-- Menu Section -->
+  <section class="menu-section">
+    <div class="container">
+
+      <!-- Espresso Category -->
+      <div class="menu-category fade-in">
+        <div class="menu-category-header">
+          <svg class="menu-category-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path d="M17 8h1a4 4 0 010 8h-1"/>
+            <path d="M3 8h14v9a4 4 0 01-4 4H7a4 4 0 01-4-4V8z"/>
+            <line x1="6" y1="2" x2="6" y2="4"/>
+            <line x1="10" y1="2" x2="10" y2="4"/>
+            <line x1="14" y1="2" x2="14" y2="4"/>
+          </svg>
+          <h2 class="menu-category-title">Espresso</h2>
+        </div>
+
+        <div class="menu-items">
+          <article class="menu-item">
+            <div class="menu-item-header">
+              <h3 class="menu-item-name">각성 에스프레소</h3>
+              <span class="menu-item-price">₩4,500</span>
+            </div>
+            <p class="menu-item-desc">
+              에티오피아 예가체프와 과테말라 안티구아의 블렌딩.
+              다크 초콜릿과 베리의 복합적인 향미.
+            </p>
+            <div class="menu-item-tags">
+              <span class="menu-item-tag">SIGNATURE</span>
+            </div>
+          </article>
+
+          <article class="menu-item">
+            <div class="menu-item-header">
+              <h3 class="menu-item-name">아메리카노</h3>
+              <span class="menu-item-price">₩4,000</span>
+            </div>
+            <p class="menu-item-desc">
+              각성 에스프레소를 베이스로 한 깔끔한 아메리카노.
+              HOT / ICE 선택 가능.
+            </p>
+          </article>
+
+          <article class="menu-item">
+            <div class="menu-item-header">
+              <h3 class="menu-item-name">카페 라떼</h3>
+              <span class="menu-item-price">₩5,000</span>
+            </div>
+            <p class="menu-item-desc">
+              부드러운 스팀 밀크와 에스프레소의 조화.
+              오트밀크 변경 가능 (+500).
+            </p>
+          </article>
+
+          <article class="menu-item">
+            <div class="menu-item-header">
+              <h3 class="menu-item-name">플랫 화이트</h3>
+              <span class="menu-item-price">₩5,500</span>
+            </div>
+            <p class="menu-item-desc">
+              벨벳 마이크로폼과 더블 리스트레토 샷.
+              진한 커피 풍미를 선호하는 분들에게 추천.
+            </p>
+          </article>
+
+          <article class="menu-item">
+            <div class="menu-item-header">
+              <h3 class="menu-item-name">연구소 모카</h3>
+              <span class="menu-item-price">₩5,500</span>
+            </div>
+            <p class="menu-item-desc">
+              발로나 다크 초콜릿과 에스프레소의 만남.
+              카카오 본연의 쌉싸름한 풍미.
+            </p>
+          </article>
+        </div>
+      </div>
+
+      <!-- Brewing Category -->
+      <div class="menu-category fade-in">
+        <div class="menu-category-header">
+          <svg class="menu-category-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path d="M9 3h6l3 18H6L9 3z"/>
+            <path d="M7 9h10"/>
+            <path d="M8 15h8"/>
+          </svg>
+          <h2 class="menu-category-title">Brewing</h2>
+        </div>
+
+        <div class="menu-items">
+          <article class="menu-item">
+            <div class="menu-item-header">
+              <h3 class="menu-item-name">핸드드립 세션</h3>
+              <span class="menu-item-price">₩7,000~</span>
+            </div>
+            <p class="menu-item-desc">
+              싱글 오리진 원두를 선택하여 바리스타가 직접 추출.
+              오늘의 원두 3종 중 선택.
+            </p>
+            <div class="menu-item-tags">
+              <span class="menu-item-tag">SIGNATURE</span>
+              <span class="menu-item-tag">SINGLE ORIGIN</span>
+            </div>
+          </article>
+
+          <article class="menu-item">
+            <div class="menu-item-header">
+              <h3 class="menu-item-name">콜드 브루 랩</h3>
+              <span class="menu-item-price">₩5,500</span>
+            </div>
+            <p class="menu-item-desc">
+              18시간 저온 추출 콜드 브루.
+              산미를 최소화하고 달콤한 초콜릿 노트 극대화.
+            </p>
+            <div class="menu-item-tags">
+              <span class="menu-item-tag">SIGNATURE</span>
+            </div>
+          </article>
+
+          <article class="menu-item">
+            <div class="menu-item-header">
+              <h3 class="menu-item-name">더치 커피</h3>
+              <span class="menu-item-price">₩6,000</span>
+            </div>
+            <p class="menu-item-desc">
+              8시간에 걸쳐 한 방울씩 추출한 더치 커피.
+              깊고 부드러운 풍미.
+            </p>
+          </article>
+
+          <article class="menu-item">
+            <div class="menu-item-header">
+              <h3 class="menu-item-name">에어로프레스</h3>
+              <span class="menu-item-price">₩6,500</span>
+            </div>
+            <p class="menu-item-desc">
+              압력 추출로 완성한 클린하고 밸런스 좋은 커피.
+              싱글 오리진 원두 사용.
+            </p>
+          </article>
+        </div>
+      </div>
+
+      <!-- Season Special Category -->
+      <div class="menu-category fade-in">
+        <div class="menu-category-header">
+          <svg class="menu-category-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path d="M8 21h8M12 15v6"/>
+            <path d="M12 3a6 6 0 00-6 6c0 3 2 5 3 7h6c1-2 3-4 3-7a6 6 0 00-6-6z"/>
+          </svg>
+          <h2 class="menu-category-title">Season Special</h2>
+        </div>
+
+        <div class="menu-items">
+          <article class="menu-item">
+            <div class="menu-item-header">
+              <h3 class="menu-item-name">윈터 스파이스 라떼</h3>
+              <span class="menu-item-price">₩6,500</span>
+            </div>
+            <p class="menu-item-desc">
+              시나몬, 넛맥, 클로브가 어우러진 따뜻한 시즌 라떼.
+              겨울 한정 메뉴.
+            </p>
+            <div class="menu-item-tags">
+              <span class="menu-item-tag">LIMITED</span>
+            </div>
+          </article>
+
+          <article class="menu-item">
+            <div class="menu-item-header">
+              <h3 class="menu-item-name">흑임자 크림 라떼</h3>
+              <span class="menu-item-price">₩6,500</span>
+            </div>
+            <p class="menu-item-desc">
+              국내산 흑임자 크림과 에스프레소의 고소한 조화.
+              한국적 풍미의 시그니처 음료.
+            </p>
+            <div class="menu-item-tags">
+              <span class="menu-item-tag">LIMITED</span>
+            </div>
+          </article>
+
+          <article class="menu-item">
+            <div class="menu-item-header">
+              <h3 class="menu-item-name">아인슈페너</h3>
+              <span class="menu-item-price">₩6,000</span>
+            </div>
+            <p class="menu-item-desc">
+              비엔나 스타일 휘핑크림을 올린 클래식 커피.
+              달콤함과 쌉싸름함의 대비.
+            </p>
+          </article>
+        </div>
+      </div>
+
+      <!-- Beans Category -->
+      <div class="menu-category fade-in">
+        <div class="menu-category-header">
+          <svg class="menu-category-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <ellipse cx="12" cy="8" rx="7" ry="5"/>
+            <path d="M5 8v8c0 2.76 3.13 5 7 5s7-2.24 7-5V8"/>
+            <path d="M12 3v10"/>
+          </svg>
+          <h2 class="menu-category-title">Coffee Beans</h2>
+        </div>
+
+        <div class="menu-items">
+          <article class="menu-item">
+            <div class="menu-item-header">
+              <h3 class="menu-item-name">각성 블렌드</h3>
+              <span class="menu-item-price">₩18,000 / 200g</span>
+            </div>
+            <p class="menu-item-desc">
+              매장에서 사용하는 시그니처 블렌드.
+              다크 초콜릿, 베리, 견과류 노트.
+            </p>
+            <div class="menu-item-tags">
+              <span class="menu-item-tag">HOUSE BLEND</span>
+            </div>
+          </article>
+
+          <article class="menu-item">
+            <div class="menu-item-header">
+              <h3 class="menu-item-name">에티오피아 예가체프</h3>
+              <span class="menu-item-price">₩22,000 / 200g</span>
+            </div>
+            <p class="menu-item-desc">
+              플로럴하고 시트러스한 아로마.
+              밝은 산미와 깔끔한 피니시.
+            </p>
+            <div class="menu-item-tags">
+              <span class="menu-item-tag">SINGLE ORIGIN</span>
+            </div>
+          </article>
+
+          <article class="menu-item">
+            <div class="menu-item-header">
+              <h3 class="menu-item-name">과테말라 안티구아</h3>
+              <span class="menu-item-price">₩20,000 / 200g</span>
+            </div>
+            <p class="menu-item-desc">
+              스모키하고 초콜릿 향미가 풍부.
+              밸런스 좋은 중간 바디.
+            </p>
+            <div class="menu-item-tags">
+              <span class="menu-item-tag">SINGLE ORIGIN</span>
+            </div>
+          </article>
+
+          <article class="menu-item">
+            <div class="menu-item-header">
+              <h3 class="menu-item-name">콜롬비아 수프리모</h3>
+              <span class="menu-item-price">₩19,000 / 200g</span>
+            </div>
+            <p class="menu-item-desc">
+              캐러멜과 견과류의 달콤한 향미.
+              부드럽고 균형 잡힌 맛.
+            </p>
+            <div class="menu-item-tags">
+              <span class="menu-item-tag">SINGLE ORIGIN</span>
+            </div>
+          </article>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path d="M9 3h6M10 3v6.5L5 21h14l-5-11.5V3"/>
+          </svg>
+          <span class="footer-logo-text">각성연구소</span>
+        </div>
+
+        <nav class="footer-links">
+          <a href="index.html" class="footer-link">Home</a>
+          <a href="menu.html" class="footer-link">Menu</a>
+          <a href="laboratory.html" class="footer-link">Laboratory</a>
+          <a href="location.html" class="footer-link">Location</a>
+        </nav>
+
+        <p class="footer-copy">
+          © 2024 Awakening Lab. All Rights Reserved.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

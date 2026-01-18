@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>각성연구소 | Awakening Lab</title>
+  <meta name="description" content="감각을 깨우는 한 잔의 실험. 커피를 통한 각성과 영감을 연구하는 프리미엄 커피 브랜드.">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav" id="nav">
+    <div class="container nav-container">
+      <a href="index.html" class="nav-logo">
+        <!-- Flask Icon -->
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M9 3h6M10 3v6.5L5 21h14l-5-11.5V3"/>
+          <path d="M7 17h10"/>
+        </svg>
+        <div>
+          <span class="nav-logo-text">각성연구소</span>
+          <span class="nav-logo-sub">Awakening Lab</span>
+        </div>
+      </a>
+
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="index.html" class="nav-link active">Home</a></li>
+        <li><a href="menu.html" class="nav-link">Menu</a></li>
+        <li><a href="laboratory.html" class="nav-link">Laboratory</a></li>
+        <li><a href="location.html" class="nav-link">Location</a></li>
+      </ul>
+
+      <button class="nav-toggle" id="navToggle" aria-label="메뉴 열기">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-content fade-in">
+      <p class="hero-tagline">Specialty Coffee Laboratory</p>
+      <h1 class="hero-title">
+        각성연구소
+        <span>감각을 깨우는 한 잔의 실험</span>
+      </h1>
+      <p class="hero-desc">
+        매일 아침, 우리는 커피 한 잔에 담긴 무한한 가능성을 연구합니다.
+        당신의 감각을 일깨울 완벽한 한 잔을 찾아서.
+      </p>
+      <a href="menu.html" class="hero-cta">
+        <span>시그니처 메뉴 보기</span>
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M5 12h14M12 5l7 7-7 7"/>
+        </svg>
+      </a>
+    </div>
+    <div class="hero-scroll">
+      <span>SCROLL</span>
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+        <path d="M12 5v14M19 12l-7 7-7-7"/>
+      </svg>
+    </div>
+  </section>
+
+  <!-- Brand Section -->
+  <section class="section brand">
+    <div class="container">
+      <div class="brand-content fade-in">
+        <p class="text-accent mb-md">Our Philosophy</p>
+        <h2 class="brand-title">커피, 그 너머의 경험</h2>
+        <p class="brand-text">
+          각성연구소는 단순히 커피를 만드는 곳이 아닙니다.
+          <strong>원두의 산지</strong>부터 <strong>로스팅의 온도</strong>,
+          <strong>추출의 시간</strong>까지 모든 과정을 과학적으로 연구하며
+          당신에게 최적화된 한 잔을 완성합니다.
+          <br><br>
+          우리의 연구는 끝나지 않습니다.
+          매일 새로운 실험, 매일 새로운 발견.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Menu Section -->
+  <section class="section featured">
+    <div class="container">
+      <div class="featured-header fade-in">
+        <p class="text-accent mb-sm">Signature Menu</p>
+        <h2>시그니처 컬렉션</h2>
+      </div>
+
+      <div class="featured-grid">
+        <!-- Card 1 -->
+        <article class="menu-card fade-in">
+          <svg class="menu-card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path d="M17 8h1a4 4 0 010 8h-1"/>
+            <path d="M3 8h14v9a4 4 0 01-4 4H7a4 4 0 01-4-4V8z"/>
+            <line x1="6" y1="2" x2="6" y2="4"/>
+            <line x1="10" y1="2" x2="10" y2="4"/>
+            <line x1="14" y1="2" x2="14" y2="4"/>
+          </svg>
+          <p class="menu-card-number">01</p>
+          <h3 class="menu-card-title">각성 에스프레소</h3>
+          <p class="menu-card-desc">
+            에티오피아 예가체프와 과테말라 안티구아를 블렌딩한
+            깊고 복합적인 향미의 시그니처 에스프레소.
+          </p>
+          <a href="menu.html" class="menu-card-link">
+            <span>자세히 보기</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M5 12h14M12 5l7 7-7 7"/>
+            </svg>
+          </a>
+        </article>
+
+        <!-- Card 2 -->
+        <article class="menu-card fade-in">
+          <svg class="menu-card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path d="M8 21h8M12 15v6"/>
+            <path d="M12 3a6 6 0 00-6 6c0 3 2 5 3 7h6c1-2 3-4 3-7a6 6 0 00-6-6z"/>
+            <path d="M9 12h6"/>
+          </svg>
+          <p class="menu-card-number">02</p>
+          <h3 class="menu-card-title">콜드 브루 랩</h3>
+          <p class="menu-card-desc">
+            18시간 저온 추출로 완성한 실험적 콜드 브루.
+            산미를 최소화하고 달콤한 초콜릿 노트를 극대화.
+          </p>
+          <a href="menu.html" class="menu-card-link">
+            <span>자세히 보기</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M5 12h14M12 5l7 7-7 7"/>
+            </svg>
+          </a>
+        </article>
+
+        <!-- Card 3 -->
+        <article class="menu-card fade-in">
+          <svg class="menu-card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path d="M9 3h6l3 18H6L9 3z"/>
+            <path d="M7 9h10"/>
+            <path d="M8 15h8"/>
+          </svg>
+          <p class="menu-card-number">03</p>
+          <h3 class="menu-card-title">핸드드립 세션</h3>
+          <p class="menu-card-desc">
+            싱글 오리진 원두를 취향에 맞게 선택.
+            바리스타가 직접 추출하는 1:1 핸드드립 경험.
+          </p>
+          <a href="menu.html" class="menu-card-link">
+            <span>자세히 보기</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M5 12h14M12 5l7 7-7 7"/>
+            </svg>
+          </a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path d="M9 3h6M10 3v6.5L5 21h14l-5-11.5V3"/>
+          </svg>
+          <span class="footer-logo-text">각성연구소</span>
+        </div>
+
+        <nav class="footer-links">
+          <a href="index.html" class="footer-link">Home</a>
+          <a href="menu.html" class="footer-link">Menu</a>
+          <a href="laboratory.html" class="footer-link">Laboratory</a>
+          <a href="location.html" class="footer-link">Location</a>
+        </nav>
+
+        <p class="footer-copy">
+          © 2024 Awakening Lab. All Rights Reserved.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
